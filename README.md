@@ -5,15 +5,17 @@ Proyecto web realizado con HTML5 semántico y CSS3 modular.
 ## Estructura
 
 ```text
-hoja-vida-santos-css-incluido/
+CV_SantosMamani/
 ├── index.html
-├── css-incluido/
+├── css/
 │   ├── styles.css       # Punto de entrada con @import
 │   ├── variables.css    # Paleta y variables
 │   ├── base.css         # Reset, tipografía y accesibilidad
 │   ├── layout.css       # Flexbox, Grid y responsive
 │   ├── components.css   # Tarjetas, tablas y formularios
 │   └── animations.css   # Microinteracciones
+├── js/
+│   └── script.js         # Tema persistente y validación del formulario
 ├── assets/
 │   ├── images/
 │   │   ├── foto-perfil.jpeg
@@ -21,7 +23,8 @@ hoja-vida-santos-css-incluido/
 │   ├── audio/
 │   │   └── presentacion.mp3
 │   └── video/
-│       └── proyecto.mkv
+│       ├── proyecto.mp4    # Formato compatible con navegadores
+│       └── proyecto.mkv    # Archivo original
 └── README.md
 ```
 
@@ -30,9 +33,10 @@ hoja-vida-santos-css-incluido/
 - Perfil personal centrado y ubicado arriba.
 - Paleta principal: `#365fb3`, `#264480`, `#f8f8f8`.
 - Una sola familia tipográfica: Sora.
-- Modo claro/oscuro sin JavaScript, mediante un control HTML y CSS.
+- Modo claro/oscuro con control HTML, CSS y persistencia mediante JavaScript.
 - Flexbox en navegación, datos de contacto y etiquetas.
 - CSS Grid en formación, habilidades, proyectos, multimedia y formulario.
 - Diseño responsive mediante `@media` queries.
 - Etiquetas HTML5 semánticas y elementos de accesibilidad.
-- Formulario con validación HTML5 nativa.
+- Formulario con validación HTML5 nativa y mensajes accesibles mediante JavaScript.
+- Enlaces de contacto y perfil profesional de GitHub.

@@ -291,6 +291,21 @@
     color: var(--text-main);
 }
 
+.form-status {
+    min-height: 1.5rem;
+    margin-top: 1rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.form-status[data-state="error"] {
+    color: var(--danger);
+}
+
+.form-status[data-state="success"] {
+    color: var(--success);
+}
+
 /* =========================================================
    DIALOG
    ========================================================= */

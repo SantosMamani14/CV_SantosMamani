@@ -8,8 +8,8 @@
     <title>Hoja de Vida | Santos Luis Mamani Apaza</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css-incluido/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <input class="theme-toggle-input" type="checkbox" id="theme-toggle" aria-label="Cambiar entre modo claro y oscuro">
@@ -40,6 +40,7 @@
                     <a href="mailto:santos.mamani.a@ucb.edu.bo">✉ santos.mamani.a@ucb.edu.bo</a>
                     <a href="tel:+59176547087">☎ +591 76547087</a>
                     <span>⌖ La Paz, Bolivia</span>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </address>
             </div>
             <blockquote class="hero__quote">
@@ -150,13 +151,13 @@
                 <div class="media-grid">
                     <article class="card media-card"><h3>Imagen del proyecto</h3><figure><img src="assets/images/sistema-finanzas.png" alt="Captura del panel de control del Sistema Inteligente de Administración de Finanzas" loading="lazy"><figcaption>Panel de control del Sistema Inteligente de Administración de Finanzas.</figcaption></figure></article>
                     <article class="card media-card"><h3>Presentación en audio</h3><figure><audio controls preload="metadata" aria-label="Presentación en audio de Santos Luis Mamani Apaza"><source src="assets/audio/presentacion.mp3" type="audio/mpeg">Tu navegador no soporta audio HTML5.</audio><figcaption>Breve presentación personal.</figcaption></figure></article>
-                    <article class="card media-card"><h3>Demostración en video</h3><figure><video controls poster="assets/images/sistema-finanzas.png" preload="metadata" aria-label="Video de demostración del proyecto"><source src="assets/video/proyecto.mkv" type="video/x-matroska">Tu navegador no soporta video HTML5.</video><figcaption>Demostración del Sistema de Finanzas.</figcaption></figure></article>
+                    <article class="card media-card"><h3>Demostración en video</h3><figure><video controls poster="assets/images/sistema-finanzas.png" preload="metadata" aria-label="Video de demostración del proyecto"><source src="assets/video/proyecto.mp4" type="video/mp4">Tu navegador no soporta video HTML5.</video><figcaption>Demostración del Sistema de Finanzas.</figcaption></figure></article>
                 </div>
             </section>
 
             <section class="section" id="contacto" aria-labelledby="contacto-title">
                 <div class="section-heading"><span class="section-number">09</span><div><p class="section-kicker">Contacto</p><h2 id="contacto-title">Hablemos</h2></div></div>
-                <form class="card contact-form" action="#" method="post">
+                <form class="card contact-form" id="contact-form" action="#" method="post" novalidate>
                     <fieldset>
                         <legend>Formulario de contacto</legend>
                         <div class="form-grid">
@@ -169,6 +170,7 @@
                         </div>
                     </fieldset>
                     <div class="form-actions"><button type="submit">Enviar mensaje</button><button type="reset" class="button--secondary">Limpiar campos</button></div>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
                 </form>
             </section>
         </main>
@@ -179,5 +181,6 @@
             <a href="#inicio">Volver al inicio ↑</a>
         </footer>
     </div>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
