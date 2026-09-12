@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         form.reset();
-        status.textContent = 'Gracias por tu mensaje. Te responderé pronto.';
+        status.textContent = 'Mensaje enviado correctamente. Gracias por contactarme.';
         status.dataset.state = 'success';
+        status.focus();
     });
 
     form.addEventListener('reset', () => {

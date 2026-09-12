@@ -90,6 +90,10 @@
     color: #ffffff;
 }
 
+.page-nav a[href="perfil.html"] {
+    display: none;
+}
+
 .page-main {
     width: min(var(--container), 92%);
     margin: 0 auto;
@@ -220,16 +224,8 @@
     transform: translateX(19px);
 }
 
-#theme-toggle:checked ~ .site-shell .theme-toggle__icon::before {
-    content: "☾";
-}
-
 #theme-toggle:checked ~ .site-shell .theme-toggle__icon {
-    font-size: 0;
-}
-
-#theme-toggle:checked ~ .site-shell .theme-toggle__icon::before {
-    font-size: 1.1rem;
+    font-weight: 800;
 }
 
 /* Perfil: todo arriba y centrado, nunca a los lados */

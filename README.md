@@ -45,4 +45,4 @@ CV_SantosMamani/
 - Diseño responsive mediante `@media` queries.
 - Etiquetas HTML5 semánticas y elementos de accesibilidad.
 - Formulario con validación HTML5 nativa y mensajes accesibles mediante JavaScript.
-- Enlaces de contacto y perfil profesional de GitHub.
+- Enlaces profesionales para GitHub y LinkedIn, pendientes de reemplazar por los perfiles reales.
