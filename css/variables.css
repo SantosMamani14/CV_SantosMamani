@@ -1,0 +1,77 @@
+/* =========================================================
+   VARIABLES.CSS
+   Variables de color, tipografía y medidas
+   ========================================================= */
+
+:root {
+    --color-primary: #365fb3;
+    --color-primary-dark: #264480;
+    --color-light: #f8f8f8;
+
+    --bg-body: #f8f8f8;
+    --bg-surface: #ffffff;
+    --bg-soft: #eef3fb;
+    --bg-tinted: #eef3fb;
+
+    --text-main: #172033;
+    --text-secondary: #4b5563;
+    --text-muted: #64748b;
+
+    --border-color: #d5deec;
+    --accent: #365fb3;
+    --accent-hover: #264480;
+
+    --hero-text: #ffffff;
+    --hero-muted: #dce7ff;
+    --input-bg: #ffffff;
+
+    --success: #198754;
+    --warning: #b7791f;
+    --danger: #c53030;
+
+    --shadow: 0 10px 28px rgba(38, 68, 128, 0.12);
+    --shadow-strong: 0 16px 38px rgba(38, 68, 128, 0.18);
+
+    --font-main: "Sora", sans-serif;
+
+    --radius-small: 8px;
+    --radius-medium: 14px;
+    --radius-large: 22px;
+
+    --container: 1180px;
+    --transition: 0.25s ease;
+}
+
+/* =========================================================
+   MODO OSCURO
+   El checkbox controla el tema sin JavaScript.
+   ========================================================= */
+
+body:has(#theme-toggle:checked) {
+    --color-primary: #274875;
+    --color-primary-dark: #101d32;
+
+    --bg-body: #0d1524;
+    --bg-surface: #172337;
+    --bg-soft: #202f47;
+    --bg-tinted: #121e31;
+
+    --text-main: #f8f8f8;
+    --text-secondary: #d6deeb;
+    --text-muted: #aebbd0;
+
+    --border-color: #3a4d6a;
+    --accent: #8fb0f2;
+    --accent-hover: #b2c9fa;
+
+    --hero-text: #ffffff;
+    --hero-muted: #dbe7ff;
+    --input-bg: #111c2e;
+
+    --success: #6ee7a7;
+    --warning: #f4ca73;
+    --danger: #ff9090;
+
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+    --shadow-strong: 0 18px 42px rgba(0, 0, 0, 0.38);
+}
