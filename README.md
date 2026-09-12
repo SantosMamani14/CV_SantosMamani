@@ -7,6 +7,11 @@ Proyecto web realizado con HTML5 semántico y CSS3 modular.
 ```text
 CV_SantosMamani/
 ├── index.html
+├── trayectoria.html
+├── habilidades.html
+├── proyectos.html
+├── multimedia.html
+├── contacto.html
 ├── css/
 │   ├── styles.css       # Punto de entrada con @import
 │   ├── variables.css    # Paleta y variables
@@ -15,7 +20,8 @@ CV_SantosMamani/
 │   ├── components.css   # Tarjetas, tablas y formularios
 │   └── animations.css   # Microinteracciones
 ├── js/
-│   └── script.js         # Tema persistente y validación del formulario
+│   ├── main.js            # Tema persistente e interacciones generales
+│   └── form-validation.js # Validación del formulario de contacto
 ├── assets/
 │   ├── images/
 │   │   ├── foto-perfil.jpeg
